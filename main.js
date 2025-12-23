@@ -11,16 +11,16 @@ if(dob== ''){
  let yeardiffrence = current.getFullYear()-data.getFullYear();
   let monthdiffrence= current.getMonth()- data.getMonth();
   let daydiffrence= current.getDate()- data.getDate();
-  if (daydiffrence <=0|| yeardiffrence<=0 || monthdiffrence<=0){
+  if (daydiffrence <=0){
     daydiffrence=0;
-    yeardiffrence=0;
-    monthdiffrence=0;
+    // yeardiffrence=0;
+    // monthdiffrence=0;
   }
 
   else{
   let daydiffrence= current.getDate()- data.getDate();
- let yeardiffrence = current.getFullYear()-data.getFullYear();
-  let monthdiffrence= current.getMonth()- data.getMonth();
+//  let yeardiffrence = current.getFullYear()-data.getFullYear();
+//   let monthdiffrence= current.getMonth()- data.getMonth();
 
   }
     
